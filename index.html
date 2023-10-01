@@ -48,9 +48,9 @@ h2.aboutushead{
     <header>
     <nav>
         <ul>
-            <a href="https://google.com"><li><h3>link 1</h3></li></a>
+            <a href="#Home"><li><h3>Home</h3></li></a>
             <a href="https://epicben208.github.io/BSMP-website/"><li><h3>link 1</h3></li></a>
-            <a href="#"><li><h3>link 1</h3></li></a>
+            <a href="#Home"><li><h3></h3></li></a>
             <a href="#"><li><h3>link 1</h3></li></a>
             <a href="#"><li><h3>link 1</h3></li></a>
             <a href="#"><li><h3>link 1</h3></li></a>
@@ -59,7 +59,7 @@ h2.aboutushead{
     </nav>
     </header>
     <div class="title">
-                <img src="BSMP.png" height="50%" width="50%">
+                <img src="BSMP.png" height="50%" width="50%" id="home">
             </div>
             <div class="main">
                 <h4>The Big Smp is a modded minecraft server a group of the greatest streamers from around the world. for us  hosted by the best admins PatateGivree, Yosu_Master
@@ -80,19 +80,20 @@ header{
     width: 100%;
     top: 0;
     left: 0;
-    background-color: green;
+    background-color: black;
     color: white;
     padding: 10px;
 }
     nav{
         float: right;
-        background-color: green;
+        background-color: black;
         margin-top: -5px;
     }
     nav li{
         padding: 8px 50px;
         margin: -8px -50px;
-        background-color: green;
+        color: white;
+        background-color: black(0, 0, 0);
         display: inline-block;
         margin: -20px -1px;
         position: relative;
@@ -105,8 +106,10 @@ header{
 
     }
     nav li:hover {
-        color: red;
-        background-color: lime;
+        color: black;
+        font-size: larger;
+        font:bold;
+        background-color: lightgray;
         transition: ease-in-out 100ms;
     }
     nav li:before{
@@ -116,7 +119,7 @@ header{
         height: 3px;
         background-color: black;
         position: absolute;
-        top: 55;
+        top: 10;
         width: 0%;
         transition: all ease-in-out 200ms;
     }
