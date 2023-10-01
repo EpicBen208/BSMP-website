@@ -84,4 +84,43 @@ header{
     color: white;
     padding: 1em;
 }
+    nav{
+        float: right;
+        background-color: green;
+    }
+    nav li{
+        padding: 8px 50px;
+        margin: -8px -50px;
+        background-color: green;
+        display: inline-block;
+        margin: -20px -1px;
+        position: relative;
+
+    }
+    nav a{
+        display: inline-block;
+        margin: -5px -1px;
+        position: relative;
+
+    }
+    nav li:hover {
+        color: red;
+        background-color: lime;
+        transition: ease-in-out 100ms;
+    }
+    nav li:before{
+        margin-left: -50px;
+        content: '';
+        display: block;
+        height: 3px;
+        background-color: black;
+        position: absolute;
+        top: 55;
+        width: 0%;
+        transition: all ease-in-out 200ms;
+    }
+    nav li:hover::before
+    {
+        width: 100%;
+    }
 </style>
