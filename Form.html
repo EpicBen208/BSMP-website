@@ -13,8 +13,24 @@ background: url(background.png) repeat fixed;
 background-position:center;
 background-size:100% 100%;
 }
+div.Form{
+    border-radius: 25px 25px 0px 0px;
+    background-color:  rgba(0, 0, 0, .5);
+    margin-left: 35%;
+    margin-right: 5%;
+    margin-top: -500px;
+    font-size: x-large;
+    color: white;
+}
 </style>
-
+<style type="text/css">
+    div.title
+    {padding-top: 0;
+        padding-left: 30%;
+        font-size: xx-large;
+        color: #228B22;
+        }
+</style>    
     <body>
     <header>
         <h2 class="bsmpname">BSMP</h2>
@@ -35,7 +51,7 @@ background-size:100% 100%;
             </div>
             
             
-            <form action="Form.html">
+            <form action="Form.html" class="form">
                 <label for="MCname">Minecraft Username</label><br>
                 <input type="text" id="MCname" name="MCname" value="name here"><br>
             </form>
